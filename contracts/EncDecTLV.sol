@@ -107,6 +107,8 @@ contract EncDecTLV {
         bytes1 _tag,
         uint8 _expLen
     ) private {
+        require(msg.sender == admin, "Not Authorized");
+
         uint256 _pointer = 0;
         uint8 _len;
 
