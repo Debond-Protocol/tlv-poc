@@ -24,7 +24,7 @@ Tag (Hex)	Field			Data Type		Description
  |
 —-------------------------------------------------<< AUCTION >>—-------------------------------------------------
 41		Final Bidder		Hex, 20 bytes		Address of the Final Bidder
-42		End Time		Unix TIme, 4 bytes	End Time of the Auction
+42		End Time		Unix Time, 4 bytes	End Time of the Auction
 43		Final Price		Number, 4 Bytes	        Closing Price of the Auction
  |
  |
